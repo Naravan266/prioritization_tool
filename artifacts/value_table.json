@@ -1,0 +1,71 @@
+{
+  "basis": "relative value index = placement median expected_profit / global median (absolute $ withheld for privacy; global ratio = 1.0)",
+  "n_total": 140,
+  "min_support": 5,
+  "by_placement": {
+    "Cart": {
+      "ratio": 0.101,
+      "n": 1
+    },
+    "Case": {
+      "ratio": 0.245,
+      "n": 1
+    },
+    "Emails": {
+      "ratio": 0.231,
+      "n": 1
+    },
+    "Home": {
+      "ratio": 1.209,
+      "n": 20
+    },
+    "Main": {
+      "ratio": 0.766,
+      "n": 5
+    },
+    "PDP": {
+      "ratio": 0.236,
+      "n": 2
+    },
+    "Payment": {
+      "ratio": 1.191,
+      "n": 11
+    },
+    "Payment,Cart": {
+      "ratio": 1.231,
+      "n": 1
+    },
+    "Popups": {
+      "ratio": 0.382,
+      "n": 8
+    },
+    "Queue": {
+      "ratio": 0.177,
+      "n": 4
+    },
+    "Quiz": {
+      "ratio": 1.069,
+      "n": 9
+    },
+    "Register": {
+      "ratio": 1.125,
+      "n": 5
+    },
+    "SP": {
+      "ratio": 1.075,
+      "n": 25
+    },
+    "Sitewide": {
+      "ratio": 1.048,
+      "n": 28
+    },
+    "TY": {
+      "ratio": 0.548,
+      "n": 18
+    },
+    "Upgrade": {
+      "ratio": 0.314,
+      "n": 1
+    }
+  }
+}

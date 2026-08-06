@@ -1,0 +1,8 @@
+# Runtime (the deployed Streamlit app) needs only these:
+streamlit==1.40.0
+numpy>=1.24
+pandas>=2.0            # pulled in by streamlit; used by the build scripts
+
+# Needed only to REBUILD model artifacts locally (run build_all.py), not to serve:
+scikit-learn>=1.3
+openpyxl>=3.1

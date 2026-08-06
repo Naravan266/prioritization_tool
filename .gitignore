@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+.DS_Store
+.streamlit/secrets.toml
+_*.txt
+.ipynb_checkpoints/
+
+# PRIVACY: never commit raw or row-level company data. The deployed app needs
+# ONLY the aggregated files in artifacts/ (coefficients, base rates, value index).
+# These stay local for rebuilding the model, but must not go to the repo.
+data/ab_tests_raw.xlsx
+data/feature_categories.docx
+data/tests_clean.csv
+data/tests_classified.csv
+
+# PRIVACY: real LTV coefficients (K/L) for the sample-size calculator. The
+# calculator falls back to neutral placeholders when this file is absent, or
+# reads Streamlit Secrets when deployed — the real numbers never reach the repo.
+coefficients.csv
+
+# Internal task writeup — not for the public repo
+WRITEUP.md

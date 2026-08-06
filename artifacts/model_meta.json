@@ -1,0 +1,15 @@
+{
+  "chosen_C": 0.15,
+  "n_train": 484,
+  "base_rate": 0.1942,
+  "brier_oof": 0.1537,
+  "brier_baseline": 0.1565,
+  "auc_oof": 0.605,
+  "features": [
+    "placement_clean",
+    "feature_type",
+    "kpi_family",
+    "exp_uplift_log"
+  ],
+  "uplift_cap": 0.3
+}
